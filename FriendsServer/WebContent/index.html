@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>index.html</title>
+<style>
+	a, a:link{
+		text-decoration:none;
+		color:inherit;
+	}
+</style>
+</head>
+<body>
+	<h3>저장 폼 입니다.</h3>
+	<form action="save" method="post">
+		<fieldset>
+			<legend>회원 정보 입력</legend>
+			<table>
+				<tr>
+					<td><input type="hidden" id="num" name="num" /></td>
+				</tr>
+				<tr>
+					<td><label for="name">이름</label></td>
+					<td><input type="text" id="name" name="name" /></td>
+				</tr>
+				<tr>
+					<td><label for="phone">핸드폰</label></td>
+					<td><input type="text" id="phone" name="phone" /><br /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><button type="submit">저장</button></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+	<button><a href="search">회원 정보 조회</a></button>
+</body>
+</html>
